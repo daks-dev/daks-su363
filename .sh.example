@@ -5,7 +5,7 @@ until [ $ac = "-" ]; do
     echo -e "";
     echo -e "+ : git:pull";
     echo -e "";
-    echo -e "* : npm:outdated";
+    echo -e "/ : npm:outdated";
     echo -e "1 : npm:install";
     echo -e "2 : npm:update";
     echo -e "";
@@ -26,7 +26,7 @@ until [ $ac = "-" ]; do
             echo -e "> git:pull";
             git pull;;
 
-        "*")
+        "/")
             echo -e "> npm:outdated";
             npm outdated;;
 
