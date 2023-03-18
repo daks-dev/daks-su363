@@ -3,8 +3,8 @@
   import {
     lazyload,
     AppHead,
-    NavbarKit,
     Footer,
+    NavbarKit,
     RouteTransition,
     ScreenBlock,
     YandexMetrikaInit

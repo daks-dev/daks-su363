@@ -28,7 +28,7 @@
       class="
         w-24 sm:w-32 drop-shadow-md hover:drop-shadow-deep hover:scale-105
         transition duration-300 ease-in-out"
-      href="https://github.com/daks-dev/daks-skm"
+      href="https://github.com/daks-dev/daks-su363.git"
       target="_blank">
       <img
         class="w-full h-auto"

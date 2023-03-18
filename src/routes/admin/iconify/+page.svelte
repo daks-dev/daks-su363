@@ -42,7 +42,7 @@
       rel="noreferrer nofollow"
       class="w-24 sm:w-32 hover:scale-110
              transition-all duration-300 ease-in-out"
-      href="https://github.com/daks-dev/daks.git"
+      href="https://github.com/daks-dev/daks-su363.git"
       target="_blank">
       <img
         class="w-full h-auto"
