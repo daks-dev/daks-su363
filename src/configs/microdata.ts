@@ -11,7 +11,7 @@ const config = {
       addressRegion: 'Москва',
       addressLocality: 'Москва',
       streetAddress: 'Каширское&nbsp;шоссе, д.&nbsp;50, корп.&nbsp;2А',
-      url: '//clck.ru/EScbc'
+      url: '//clck.ru/33okQW'
     }
   }
 };
