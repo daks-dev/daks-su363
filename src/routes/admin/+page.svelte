@@ -28,11 +28,11 @@
       class="
         w-24 sm:w-32 drop-shadow-md hover:drop-shadow-deep hover:scale-105
         transition duration-300 ease-in-out"
-      href="https://github.com/daks-dev/daks-su363.git"
+      href="https://github.com/daks-dev/daks-su363"
       target="_blank">
       <img
         class="w-full h-auto"
-        src="/icons/github.svg"
+        src="/assets/icons/github.svg"
         alt="GitHUB"
         decoding="async"
         loading="lazy" />

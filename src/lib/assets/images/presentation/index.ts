@@ -133,7 +133,7 @@ export const labels = [
 ];
 
 export default async () => ({
-  images: await sources(),
+  sources: await sources(),
   thumbnails: await squares(),
   labels
 });

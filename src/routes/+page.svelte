@@ -3,7 +3,7 @@
 
   import type { PageData } from './$types';
   export let data: PageData;
-  const { images, thumbnails, labels } = data;
+  const { sources, thumbnails, labels } = data;
 
   const canonical = process.env.APP_CANONICAL ? new URL(process.env.APP_CANONICAL).origin : '';
 
@@ -133,7 +133,7 @@
     class="
       wrapper
       justify-around gap-8 lg:gap-12 2xl:gap-16"
-    {images}
+    {sources}
     {thumbnails}
     {labels}
     sign
