@@ -5,9 +5,9 @@ until [ $ac = "-" ]; do
     echo -e "";
     echo -e "+ : git:pull";
     echo -e "";
-    echo -e "/ : npm:outdated";
     echo -e "1 : npm:install";
     echo -e "2 : npm:update";
+    echo -e "3 : npm:outdated";
     echo -e "";
     echo -e "4 : svelte:check";
     echo -e "5 : vite:build";
@@ -26,10 +26,6 @@ until [ $ac = "-" ]; do
             echo -e "> git:pull";
             git pull;;
 
-        "/")
-            echo -e "> npm:outdated";
-            npm outdated;;
-
         "1")
             echo -e "> npm:install";
             npm install;;
@@ -37,6 +33,10 @@ until [ $ac = "-" ]; do
         "2")
             echo -e "> npm:update";
             npm update;;
+
+        "3")
+            echo -e "> npm:outdated";
+            npm outdated;;
 
         "4")
             echo -e "> svelte:check";
